@@ -8,7 +8,7 @@ import java.rmi.server.UnicastRemoteObject;
 public class IConversionImpl extends UnicastRemoteObject implements IConversionRemote {
 
     // Constructor for IConversionImpl, which throws RemoteException
-    protected IConversionImpl() throws RemoteException {
+    public IConversionImpl() throws RemoteException {
         // Call to the constructor of the superclass (UnicastRemoteObject)
         super();
     }

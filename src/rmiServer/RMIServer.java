@@ -1,5 +1,7 @@
-package Service;
+package rmiServer;
 // Importing necessary RMI packages
+
+import Service.IConversionImpl;
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 
